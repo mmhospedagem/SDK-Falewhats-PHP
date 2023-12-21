@@ -26,6 +26,5 @@ SUALICENCA = Altere para o número da sua licença<br>
 <a href="https://www.mmhospedagem.com.br">
  <img style="border-radius: 50%;" src="https://www.mmhospedagem.com.br/templates/mmhospedagem/assets/imagens/logo-tipo.png" width="100px;" alt=""/>
  <br />
- <sub><b>Maik Venancio</b></sub></a> <a href="https://mmhospedagem.com.br" title="Voialá">🚀</a>
----
+ <sub><b>Maik Venancio</b></sub></a> <a href="https://mmhospedagem.com.br" title="Voialá">🚀</a><br>
 Feito com ❤️ por MMHospedagem 👋🏽 Entre em contato conosco!
