@@ -19,13 +19,13 @@ $config = [
     "licenca" => "SUALICENCA"
 ];
 ```
-SEUID = Altere para seu ID de sessão
-SUALICENCA = Altere para o número da sua licença
+SEUID = Altere para seu ID de sessão<br>
+SUALICENCA = Altere para o número da sua licença<br>
 
 ---
 <a href="https://www.mmhospedagem.com.br">
  <img style="border-radius: 50%;" src="https://www.mmhospedagem.com.br/templates/mmhospedagem/assets/imagens/logo-tipo.png" width="100px;" alt=""/>
  <br />
  <sub><b>Maik Venancio</b></sub></a> <a href="https://mmhospedagem.com.br" title="Voialá">🚀</a>
-
+---
 Feito com ❤️ por MMHospedagem 👋🏽 Entre em contato conosco!
