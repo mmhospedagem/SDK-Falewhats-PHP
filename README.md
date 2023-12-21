@@ -1,6 +1,6 @@
 # SDK API Falewhats PHP
 
-<h4 align="center"> 
+<h4 align="left"> 
 	SDK desenvolvido para ajudar nossos clientes com integrações da API Whatsapp com seus projetos em PHP. <br> O sistema foi desenvolvido para receber mensagens por URL. Deixaremos abaixo um exemplo de envio de mensagem de texto!
 </h4>
 
@@ -9,7 +9,7 @@
 https://www.seudominio.com.br/suapasta/api.php?mensagem=texto&numero=556284879620&texto=Sua Mensagem
 ```
 
-<h4 align="center">Configuração</h4>
+<h4 align="left">Configuração</h4>
 
 ```bash
 # Abra o arquivo config.php e altere as linhas abaixo conforme informações em nossa área do cliente
