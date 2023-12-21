@@ -2,7 +2,7 @@
 
 // SDK API Whatsapp MMHospedagem
 // Desenvolvimento MMHospedagem
-// Exemplo de URL: https://www.seudominio.com.br/suapasta/api.php?mensagem=texto&numero=556284879620&texto=Sua Mensagem
+// Exemplo de URL: https://www.seudominio.com.br/suapasta/api.php?tipo_mensagem=texto&numero=556284879620&mensagem=Sua Mensagem
 
 require_once(dirname(__FILE__) . "/App/mmhospedagem.php");
 include_once(dirname(__FILE__) . "/config.php");
@@ -16,22 +16,15 @@ use MMHospedagem\SDK\App\Api\Whatsapp;
 $MMHospedagem_Classes = (new Whatsapp(
     $config["url"],
     $config["id_sessao"],
-    $config["licenca"]
+    $config["licenca"],
+    $config["simular_presenca"]
 ));
 
-if(($_GET["mensagem"] == "texto")) {
+if(($_GET["tipo_mensagem"] == "texto")) {
 
-    $numero = $_GET["numer"];
-    $texto = $_GET["texto"];
+    $numero = $_GET["numero"];
+    $texto = $_GET["mensagem"];
 
-    $send = $MMHospedagem_Classes->sendText($numero,$texto);
-
-    echo "<pre>";
-    print_r($send);
-    echo "</pre>";
-
-    exit();
+    $MMHospedagem_Classes->send_texto($numero,$texto);
 
 }
-
-echo "Tipo de mensagem não existe!";

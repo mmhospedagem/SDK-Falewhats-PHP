@@ -6,6 +6,7 @@
 
 $config = [
     "url" => "https://api.falewhats.com.br",
+    "licenca" => "SUALICENCA",
     "id_sessao" => "SEUID",
-    "licenca" => "SUALICENCA"
+    "simular_presenca" => true
 ];
